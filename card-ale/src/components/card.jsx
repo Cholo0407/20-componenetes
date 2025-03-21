@@ -10,7 +10,9 @@ const Card =({Carta}) =>{
             maxWidth:'400px',
             textAlign:'center',
             transition:'transform 0.2s',
-             margin: '0 auto'
+            margin: '0 auto',
+            borderStyle: 'solid',
+            borderColor: 'white'
             }
     }
     
