@@ -3,8 +3,8 @@ const Card =({Carta}) =>{
 const Estilo={
 
     card:{
-        backgroundColor: 'whiteSmoke',
-        color:'black',
+        backgroundColor: 'black',
+        color:'white',
         borderRadius:'8px',
         boxShadow:'0 4px 8px rgba(0,0,0,0.1)',
         padding: '16px',

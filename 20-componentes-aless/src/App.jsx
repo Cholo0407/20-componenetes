@@ -15,21 +15,19 @@ import Place from './components/placeHolders'
 import Popovers from './components/popovers'
 import Img from './components/img'
 import PogresBar from './components/progerss'
-import Spinners from './components/spinners'
+import Spinner from './components/spinners'
 import SpinnerGroup from './components/SpinersGroup'
 function App() {
  
 return (
     <>
    
-    <div class="alert alert-warning" role="alert">
-      Alerta color amarillo
-    </div>
+    
     <Notificacion/>
    
     <br />
-    <Spinners/>
-    <br />
+    <Spinner/>
+    <br /><br />
     <SpinnerGroup/>
     <br /><br />
     <button type="button" class="btn btn-primary position-relative">
@@ -42,16 +40,15 @@ return (
     <br />
     <br />
 
-<Modal/>
-<br />
+
 <BotonGrup/>
 <br />
 <Acordion/>
 <br />
 <Heading/>
-<br />
+<br /><br />
 <Close/>
-<br />
+<br /><br />
 <Collapse/>
 <br />
 <Lista/>
@@ -61,10 +58,12 @@ return (
 <Off/>
 <br />
 <Place/>
-<br />
+<br /><br />
 <Popovers/>
-<br />
+<br /><br />
 <Img/>
+<br />
+<Modal/>
 <br />
 <PogresBar/>
 <br />
@@ -72,6 +71,10 @@ return (
 <br />
 <Card/>
 <br />
+
+    <div class="alert alert-warning" role="alert">
+      Alerta color amarillo
+    </div>
 
     </>
 

@@ -3,7 +3,7 @@ const BotonGrup = ({BOTON}) =>{
 
     const estilo={
         boton:{
-            backgroundColor: 'orange',
+            backgroundColor: 'pink',
             color: 'white',
             border: 'none',
             borderRadius: '4px',
